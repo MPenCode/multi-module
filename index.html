@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>multi-module</title>
+  </head>
+  <body>
+    <header class="border"">
+      <nav class="flex justify-around">
+        <div class="p-4">logo</div>
+        <ul class="flex">
+          <li class="p-4">about</li>
+          <li class="p-4">contact</li>
+          <li class="p-4">home</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+        <h1 class="font-bold text-center text-2xl border">Storefront</h1>
+      <section id="container" class="grid grid-rows-3 justify-between">
+        <div class="max-h-20 max-w-20 flex-col text-center border p-4">
+            <img src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg" alt="">
+            <p>title</p>
+            <p>category</p>
+            <p>description</p>
+            <p>price</p>
+        </div>
+        <div class="max-h-20 max-w-20 flex-col text-center border p-4"></div>
+            <img src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg" alt="">
+            <p>title</p>
+            <p>category</p>
+            <p>description</p>
+            <p>price</p>
+        </div>
+        <div class="max-h-20 max-w-20 flex-col text-center border p-4"></div>
+            <img src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg" alt="">
+            <p>title</p>
+            <p>category</p>
+            <p>description</p>
+            <p>price</p>
+        </div>
+      </section>
+      <section></section>
+    </main>
+    <footer class="text-center p-4 border"><p>&copy;multi-module</p></footer>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
